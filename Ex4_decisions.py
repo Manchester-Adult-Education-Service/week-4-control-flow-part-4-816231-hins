@@ -28,6 +28,11 @@
 # 3. Print a message if the condition is True.
 
 # Write your code below:
+num1=int(input("Enter a number:"))
+if (num1 > 0):
+    print("The is a positive number.")
+
+
 
 
 # -------------------------------------------
@@ -48,6 +53,12 @@
 # 2. Print a different message if the number does not meet your condition.
 
 # Write your code below:
+num1=int(input("Enter a number:"))
+if (num1 > 0):
+    print("This is a positive number.")
+else:
+    print("This is a negative number.")
+
 
 
 # -------------------------------------------
@@ -71,6 +82,14 @@
 # 3. Test your program with different inputs to see all possible messages.
 
 # Write your code below:
+num1=int(input("Enter a number:"))
+if (num1 > 0):
+    print("This is a positive number.")
+elif (num1 <0):
+    print("This is a negative number.")
+else:
+    print("The number is zero.")
+
 
 
 # -------------------------------------------
