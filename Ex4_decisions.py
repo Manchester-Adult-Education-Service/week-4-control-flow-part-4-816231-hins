@@ -54,10 +54,10 @@ if (num1 > 0):
 
 # Write your code below:
 num1=int(input("Enter a number:"))
-if (num1 > 0):
-    print("This is a positive number.")
+if (num1 % 2 ==0):
+    print("This is a even number.")
 else:
-    print("This is a negative number.")
+    print("This is a odd number.")
 
 
 
@@ -131,8 +131,12 @@ else:
 user_num=int(input("Enter a number: "))
 user_word=input("Enter a word: ")
 stored_word="Blue"
-if(user_num > 50 and stored_word == "Blue"):
+if(user_num > 10 and stored_word == "Blue"):
     print("You entered a larger number and entered correct word.")
+
+
+
+
 
 
 # -------------------------------------------
