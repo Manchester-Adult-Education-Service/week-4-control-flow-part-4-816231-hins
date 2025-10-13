@@ -132,7 +132,10 @@ user_num=int(input("Enter a number: "))
 user_word=input("Enter a word: ")
 stored_word="Blue"
 if(user_num > 10 and stored_word == "Blue"):
-    print("You entered a larger number and entered correct word.")
+    print(f"Success !You entered a larger number and entered correct word.")
+else:
+    print("Conditions not met.")
+#
 
 
 
