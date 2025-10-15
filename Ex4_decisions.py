@@ -28,6 +28,11 @@
 # 3. Print a message if the condition is True.
 
 # Write your code below:
+num1=int(input("Enter a number:"))
+if (num1 > 0):
+    print("The is a positive number.")
+
+
 
 
 # -------------------------------------------
@@ -48,6 +53,12 @@
 # 2. Print a different message if the number does not meet your condition.
 
 # Write your code below:
+num1=int(input("Enter a number:"))
+if (num1 % 2 ==0):
+    print("This is a even number.")
+else:
+    print("This is a odd number.")
+
 
 
 # -------------------------------------------
@@ -71,6 +82,14 @@
 # 3. Test your program with different inputs to see all possible messages.
 
 # Write your code below:
+num1=int(input("Enter a number:"))
+if (num1 > 0):
+    print("This is a positive number.")
+elif (num1 <0):
+    print("This is a negative number.")
+else:
+    print("The number is zero.")
+
 
 
 # -------------------------------------------
@@ -109,6 +128,32 @@
 # - Add another condition to give a special message if the answer is partially correct.
 
 # Write your extension code below:
+user_num=int(input("Enter a number: "))
+user_word=input("Enter a word: ")
+stored_word="Blue"
+if(user_num > 10 and stored_word == "Blue"):
+    print(f"Success !You entered a larger number and entered correct word.")
+else:
+    print("Conditions not met.")
+print("Quiz time")
+print("Which of the following  is not a programming language?")
+print("A. HTML")
+print("B. SQL")
+print("C. CSS")
+print("D. Python")
+answer=input("Your answer is: ").upper()
+if(answer == "D"):
+    print("Correct answer!")
+elif(answer =="B"):
+    print("Partially correct! SQL is a query language used ib databases and has programming features.")
+else:
+    print("Try again!")
+
+#
+
+
+
+
 
 
 # -------------------------------------------
