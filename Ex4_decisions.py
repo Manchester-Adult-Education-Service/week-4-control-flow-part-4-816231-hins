@@ -135,6 +135,20 @@ if(user_num > 10 and stored_word == "Blue"):
     print(f"Success !You entered a larger number and entered correct word.")
 else:
     print("Conditions not met.")
+print("Quiz time")
+print("Which of the following  is not a programming language?")
+print("A. HTML")
+print("B. SQL")
+print("C. CSS")
+print("D. Python")
+answer=input("Your answer is: ").upper()
+if(answer == "D"):
+    print("Correct answer!")
+elif(answer =="B"):
+    print("Partially correct! SQL is a query language used ib databases and has programming features.")
+else:
+    print("Try again!")
+
 #
 
 
